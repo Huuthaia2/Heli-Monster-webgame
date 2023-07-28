@@ -1,0 +1,375 @@
+{
+  "type": "Scene",
+  "props": {
+    "width": 720,
+    "runtime": "PanelGameRun.js",
+    "height": 1280
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "var": "end",
+        "top": 0,
+        "right": 0,
+        "left": 0,
+        "bottom": 0
+      },
+      "compId": 300
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 144,
+        "x": 517,
+        "top": 144,
+        "skin": "UIRes/repeat/Image_repeat_05.png",
+        "right": 38
+      },
+      "compId": 1008,
+      "child": [
+        {
+          "type": "Label",
+          "props": {
+            "y": 0,
+            "x": 18,
+            "width": 109,
+            "var": "qian",
+            "valign": "middle",
+            "text": "99999",
+            "height": 40,
+            "font": "font01",
+            "align": "center"
+          },
+          "compId": 1009
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": -6,
+            "x": 132,
+            "skin": "UIRes/repeat/Image_repeat_04.png"
+          },
+          "compId": 1010
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "var": "youXiZhong",
+        "top": 0,
+        "right": 0,
+        "left": 0,
+        "bottom": 0
+      },
+      "compId": 276
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "var": "bg",
+        "top": 0,
+        "right": 0,
+        "name": "bg",
+        "left": 0,
+        "bottom": 0
+      },
+      "compId": 136
+    },
+    {
+      "type": "Image",
+      "props": {
+        "var": "zhiYin1",
+        "skin": "UIRes/main/Image_main_02.png",
+        "centerY": 224,
+        "centerX": 15
+      },
+      "compId": 731,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "var": "shou",
+            "skin": "UIRes/main/Image_main_01.png",
+            "centerY": 108,
+            "centerX": 126
+          },
+          "compId": 650
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "width": 720,
+        "var": "anNiu",
+        "height": 1,
+        "centerY": 0,
+        "centerX": 0,
+        "alpha": 1
+      },
+      "compId": 35,
+      "child": [
+        {
+          "type": "Box",
+          "props": {
+            "y": -185,
+            "x": 85,
+            "width": 150,
+            "var": "addQianBtn",
+            "left": 10,
+            "height": 100,
+            "centerY": -185,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 262,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "skin": "UIRes/main/Button_main_02.png",
+                "centerY": -1,
+                "centerX": 0
+              },
+              "compId": 263
+            },
+            {
+              "type": "Image",
+              "props": {
+                "skin": "UIRes/main/Image_main_05.png",
+                "centerY": 56,
+                "centerX": -54
+              },
+              "compId": 260
+            },
+            {
+              "type": "Image",
+              "props": {
+                "skin": "UIRes/main/Image_main_04.png",
+                "centerY": 56,
+                "centerX": 23
+              },
+              "compId": 296
+            },
+            {
+              "type": "Label",
+              "props": {
+                "width": 101,
+                "valign": "middle",
+                "text": "+2000",
+                "scaleY": 0.9,
+                "scaleX": 0.9,
+                "height": 30,
+                "font": "font02",
+                "centerY": 17,
+                "centerX": -5,
+                "align": "center"
+              },
+              "compId": 269
+            }
+          ]
+        },
+        {
+          "type": "Button",
+          "props": {
+            "var": "shop",
+            "stateNum": 1,
+            "skin": "UIRes/main/Button_main_01.png",
+            "left": 32,
+            "centerY": -32
+          },
+          "compId": 967,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 77,
+                "x": 20,
+                "skin": "UIRes/main/Image_main_03.png"
+              },
+              "compId": 968
+            }
+          ]
+        },
+        {
+          "type": "Button",
+          "props": {
+            "var": "btn_sound",
+            "stateNum": 1,
+            "skin": "sound_on.png",
+            "x": 32,
+            "y": -500
+          },
+          "compId": 968
+        }
+      ]
+    },
+    {
+      "type": "Image",
+      "props": {
+        "var": "guanKaBg",
+        "top": 191,
+        "skin": "UIRes/main/Image_main_06.png",
+        "centerX": -19
+      },
+      "compId": 1004,
+      "child": [
+        {
+          "type": "Label",
+          "props": {
+            "y": -7.5,
+            "x": 78,
+            "width": 66,
+            "var": "lvQian",
+            "valign": "middle",
+            "text": "11",
+            "height": 51,
+            "font": "font02",
+            "align": "left"
+          },
+          "compId": 1006
+        }
+      ]
+    },
+    {
+      "type": "Image",
+      "props": {
+        "var": "jiShaBg",
+        "top": 249,
+        "skin": "UIRes/game/Image_game_05.png",
+        "right": 11
+      },
+      "compId": 1020,
+      "child": [
+        {
+          "type": "Label",
+          "props": {
+            "y": 0,
+            "x": -113,
+            "width": 105,
+            "var": "jiShaNum",
+            "valign": "middle",
+            "text": "0",
+            "height": 51,
+            "font": "font05",
+            "align": "right"
+          },
+          "compId": 1021
+        }
+      ]
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 412,
+        "x": 397,
+        "var": "sheJiTiShi",
+        "skin": "UIRes/game/Image_game_06.png",
+        "anchorY": 1,
+        "anchorX": 0.5
+      },
+      "compId": 1022,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 22,
+            "x": 91,
+            "skin": "UIRes/game/Image_game_07.png"
+          },
+          "compId": 1023
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 650,
+          "keyframes": {
+            "scaleY": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 650,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 0.8,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 650,
+                "key": "scaleY",
+                "index": 5
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 650,
+                "key": "scaleY",
+                "index": 10
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 650,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 0.8,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 650,
+                "key": "scaleX",
+                "index": 5
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 650,
+                "key": "scaleX",
+                "index": 10
+              }
+            ]
+          }
+        }
+      ],
+      "name": "ani1",
+      "id": 1,
+      "frameRate": 24,
+      "action": 2
+    }
+  ],
+  "loadList": [
+    "UIRes/repeat/Image_repeat_05.png",
+    "UIRes/repeat/Image_repeat_04.png",
+    "UIRes/main/Image_main_02.png",
+    "UIRes/main/Image_main_01.png",
+    "UIRes/main/Button_main_02.png",
+    "UIRes/main/Image_main_05.png",
+    "UIRes/main/Image_main_04.png",
+    "UIRes/main/Button_main_01.png",
+    "UIRes/main/Image_main_03.png",
+    "UIRes/main/Image_main_06.png",
+    "UIRes/game/Image_game_05.png",
+    "UIRes/game/Image_game_06.png",
+    "UIRes/game/Image_game_07.png"
+  ],
+  "loadList3D": []
+}
